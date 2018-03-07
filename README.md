@@ -1,4 +1,4 @@
-# Twitter Filter Dobbs
+# ScamRank
 
 Ranks responses to posts on Twitter that look like cryptocurrency scams (as of early 2018).
 

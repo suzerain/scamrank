@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 
 import Home from './components/Home';
 
+
 const renderApplication = () => {
   ReactDOM.render(
     <Home /> ,

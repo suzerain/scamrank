@@ -1,15 +1,12 @@
 import React from 'react';
+import ResponseGrabber from 'lib/ResponseGrabber';
 
-const formatName = user => `${user.firstName} ${user.lastName}`;
-
-const user = {
-  firstName: 'Bob',
-  lastName: 'Dobbs'
-};
+var responseGrabber = new ResponseGrabber();
+responseGrabber.getResponsesToUser('krakenfx');
 
 const Home = () => (
   <div>
-    <h1>Hello, {formatName(user)}!</h1>
+    <h1>Hello, Bob Dobbs!</h1>
   </div>
 )
 
